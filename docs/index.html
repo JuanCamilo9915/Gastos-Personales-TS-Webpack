@@ -89,7 +89,17 @@
             "app": "./js/recibirDatos.js"
           }
         }
-        </script>
+    </script>
+    <script>
+        System.config({
+            packages: {
+                app: {
+                    defaultExtension: 'js',
+                    format: 'register'
+                }
+            }
+        });
+    </script>
     <!-- Alternatively:--->
     <script type="systemjs-module" src="import:app"></script>
     <!------------------------------------------------------------------->
