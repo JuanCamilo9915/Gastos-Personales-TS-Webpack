@@ -1,5 +1,5 @@
 //Importando Módulos
-import { ProcesandoDatosUsu } from './DB.js';
+import { ProcesandoDatosUsu } from './db';
 
 /*Seleccionando los campos de texto*/
 const detalle = document.getElementById('uno') as HTMLInputElement;//Utilizando Aserción de tipo

@@ -1,5 +1,5 @@
 //Importando Módulos
-import { RecibirDatos } from './recibirDatos.js';
+import { RecibirDatos } from './index';
 
 export class ProcesandoDatosUsu {
     //Atributos
